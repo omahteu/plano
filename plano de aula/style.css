@@ -1,0 +1,14 @@
+#cabecalho {
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+form {
+    padding: 1% 1% 1% 1%;
+}
+
+#exampleFormControlTextarea1 {
+    margin-top: 1%;
+    font-size: 18px;
+}

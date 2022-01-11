@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>ITQ-CE | Professores</title>
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <h1>IGREJA DO EVANGELHO QUADRANGULAR</h1>
+            <h1>Instituto Teológico Quadrangular</h1>
+            <h2>Plano de Aula</h2>
+        </div>
+    </header>
+    <main>
+        <form>
+            <div class="form-row">
+              <div class="col">
+                <select class="form-control">
+                    <option hidden>Região</option>
+                    <option>207</option>
+                    <option>211</option>
+                </select>
+              </div>
+              <div class="col">
+                <select class="form-control">
+                    <option hidden>Disciplina</option>
+                    <option>Metodologia do Trabalho Acadêmico</option>
+                    <option>Introdução a Teologia</option>
+                    <option>Bibliologia</option>
+                    <option>Vivência Cristã</option>
+                </select>
+              </div>
+              <div class="col">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Professor(a)">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button">&#10146;</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <input placeholder="Início" class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+              </div>
+              <div class="col">
+                <input placeholder="Termino" class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+              </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Minha missão como Professor(a) será:"></textarea>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Os valores que transmitirei através desta disciplina será:"></textarea>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Ementa da Disciplina:"></textarea>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Objetivo Geral:"></textarea>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Conteúdo Programático (Conceitos Chaves):"></textarea>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Metodologia de Ensino (Ações do Profesesor):"></textarea>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Metodologia de Aprendizagem (Ações do Aluno):"></textarea>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Recursos Pedagógicos e Didáticos (O que Professor e Aluno usarão para desenvolver a metodologia):"></textarea>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Bibliografia (Livros e Vídeos adotados ou indicados):"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-outline-success btn-lg btn-block">Enviar</button>
+                <button type="button" class="btn btn-outline-danger btn-lg btn-block">Limpar</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+<script src="jquery.js"></script>
+<script src="index.js"></script>
+
+</html>
